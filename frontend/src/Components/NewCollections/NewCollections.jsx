@@ -2,7 +2,7 @@ import React from 'react'
 import './NewCollections.css'
 import new_collection from '../Assets/new_collections'
 import Item from '../Item/Item'
- const NewColllections = () => {
+ const NewCollections = () => {
   return (
     <div className='new-collections'>
         <h1>New Collection</h1>
@@ -15,4 +15,4 @@ import Item from '../Item/Item'
         </div>
   )
 }
-export default NewColllections
+export default NewCollections
