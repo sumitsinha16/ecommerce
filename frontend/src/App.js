@@ -4,6 +4,7 @@ import Shop from './Pages/Shop'; // Import Shop component
 import ShopCategory from './Pages/ShopCategory'; // Import ShopCategory component
 import Product from './Pages/Product'; // Import Product component
 import Cart from './Pages/Cart'; // Import Cart component
+import Apifetch from './Pages/Apifetch';
 import LoginSignup from './Pages/LoginSignup'; // Import LoginSignup component
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
@@ -24,6 +25,7 @@ function App() {
         <Route path=':productId' element={<Product />}/>
         <Route path='/cart' element={<Cart />}/>
         <Route path='/login' element={<LoginSignup />}/>
+        <Route path='/api' element={<Apifetch />}/>
      </Routes>
      </BrowserRouter>
     </div>

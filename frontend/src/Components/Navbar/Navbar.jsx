@@ -45,6 +45,9 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
+        <Link to="/api">
+          <button>Api</button>
+        </Link>
         <Link to="/login">
           <button>Login</button>
         </Link>
